@@ -1,0 +1,19 @@
+int main()
+{
+	int matA[3][3];
+	int i,j;
+	
+	//popular os elemntos da matriz
+	for (i=0;i<3;i++){
+		for(j=0;j<3;j++)
+   		{
+   			printf("\nEntre com o elemento [%d, %d]",i+1,j+1);
+   			scanf("%d",&matA[i][j]);
+		}	
+	}
+		
+		
+		system("pause");
+		
+		return 0;
+}
